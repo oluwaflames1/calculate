@@ -1,0 +1,12 @@
+h1:last-of-type{
+    color: red;
+}
+p:nth-of-type(3){
+    color: yellowgreen;
+}
+input:focus{
+    background-color: brown;
+}
+textarea:focus{
+    background-color: yellow;
+}

@@ -1,0 +1,27 @@
+a:active{
+    color: yellow;
+}
+a:visited{color: brown;
+
+}
+input:checked{
+    outline: 10px solid black;
+}
+body{
+    background: linear-gradient( to right ,red, orange , yellow, green, blue, indigo, violet);
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+:root{
+    --abraham:blue;
+    --prince:50px;
+    --kenny:flex;
+}
+p{
+    color: var(--abraham);
+    display: var(--kenny);
+    font-size: var(--prince);
+}

@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    animation: 0.5s court ease-in-out infinite;
+    margin-top: 100px;
+    
+}
+@keyframes court{
+    0%{
+        background-color: blue;
+        transform: translateY(7px);
+    }
+    100%{
+        background-color: yellowgreen;
+        transform: translateY(90px);
+    }
+}
